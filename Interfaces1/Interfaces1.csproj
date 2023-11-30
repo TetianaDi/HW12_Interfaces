@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ICanFish.cs" />
     <Compile Include="ICanSing.cs" />
+    <Compile Include="IHaveFeathers.cs" />
     <Compile Include="IRunFast.cs" />
     <Compile Include="Ostrich.cs" />
     <Compile Include="Pelican.cs" />

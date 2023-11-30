@@ -12,12 +12,15 @@ namespace Interfaces1
         {
             Ostrich ostrich = new Ostrich();
             ostrich.Run();
+            ostrich.CleanFeathers();
 
             Sparrow sparrow = new Sparrow();
             sparrow.Sing();
+            sparrow.CleanFeathers();
 
             Pelican pelican = new Pelican();
             pelican.Fish();
+            pelican.CleanFeathers();
 
 
             Console.ReadLine();
